@@ -1,0 +1,33 @@
+@mixin transition($prop, $time, $funct){
+  transition: $prop $time $funct;
+  -webkit-transition: $prop $time $funct;
+  -moz-transition: $prop $time $funct;
+  -o-transition: $prop $time $funct;
+  -ms-transition: $prop $time $funct;
+}
+
+@mixin box-sizing{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+@mixin transform-img{
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+@mixin transform-links{
+  transform: translate(0, -10%);
+  -webkit-transform: translate(0, -10%);
+  -moz-transform: translate(0, -10%);
+  -o-transform: translate(0, -10%);
+  -ms-transform: translate(0, -10%);
+}
+
+
